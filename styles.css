@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+#container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border: solid 1px black;
+}
+.paletteForm {
+  display: flex;
+  height: 100%;
+  width: 30%;
+  flex-direction: column;
+  margin: 1rem;
+}
+.palette {
+  margin: 1rem;
+  width: 100%;
+  border: solid 1px black;
+  height: 50%;
+}
+.form {
+  margin: 1rem;
+  width: 100%;
+  border: solid 1px black;
+  height: 50%;
+}
+.grid {
+  margin: 2rem;
+  justify-content: right;
+  width: 65%;
+  border: solid 1px black;
+  height: 50%;
+}
+.colorboxes {
+  height: 20px;
+  width: 20px;
+  border: solid 1px black;
+}
